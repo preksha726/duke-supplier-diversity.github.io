@@ -1,0 +1,487 @@
+<style>
+body { 
+  margin: 0;
+    overflow-x: hidden !important;
+  font-family: "montserrat";
+}
+
+
+.header img {
+width: 100%;
+height:100%;
+}
+.flex {
+	display: flex;
+}
+.block {
+	display: block;
+}
+.header_name {
+font-family: "montserrat";
+font-size: 40px;
+font-weight: 900;
+line-height: 40px;
+font-style: normal;
+text-align: left;
+color: #fcf7e5;
+}
+.features {
+	display: flex;
+}
+.feature {
+	width: 33.33%;
+}
+.feature .sub-heading {
+font-family: "montserrat";
+font-size: 32px;
+font-weight: 900;
+line-height: 32px;
+font-style: normal;
+text-align: left;
+color: #ffd960;
+}
+.feature p {
+font-family: "eb garamond";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+padding: 0px 98px 2px 0px;
+}
+.email p {
+width: 329px;
+height: 16px;
+font-family: "eb garamond";
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+}
+.phone p {
+width: 195px;
+height: 16px;
+font-family: "eb garamond";
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+}
+.address p {
+width: 286px;
+height: 16px;
+font-family: "eb garamond";
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+}
+/* Copyright © 2022 Duke Supplier Diversity Program. All Rights Reserved. */
+.copyright p {
+width: 527px;
+height: 16px;
+font-family: "eb garamond";
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+font-style: normal;
+text-align: right;
+color: #f3f2f1;
+}
+.footer {
+	display:flex;
+}
+.content {
+	
+	background: rgba(1,33,105,0 );
+	background: linear-gradient(180deg, 
+	rgba(1,33,105,0 ) 0.00%, 
+	#012169 0%);
+
+}
+.shell {
+	max-width: 1250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+.shell-big {
+	max-width: 1300px;
+	margin: auto;
+}
+.text p{
+font-family: "eb garamond";
+font-size: 23px;
+font-weight: 400;
+line-height: 23px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+}
+.register_button{
+width: 145.7px;
+height: 40px;
+border-radius: 20px;
+background: #a1b70d;
+color: #a1b70d;
+}
+.register_button a {
+	color: #000;
+}
+.background_text_community{
+	position: absolute;
+	opacity: 0.05;
+    font-family: "montserrat";
+	font-size: 314px;
+	line-height: 282px;
+	font-style: normal;
+	text-align: center;
+	color: #f3f2f1;
+	text-transform: uppercase;
+
+}
+.background_text_value {
+position: absolute;
+width: 1833px;
+height: 462px;
+opacity: 0.05;
+font-family: "montserrat";
+font-size: 601px;
+font-weight: 900;
+line-height: 801px;
+font-style: normal;
+text-align: center;
+color: #f3f2f1;
+text-transform: uppercase;
+}
+.background_text_access {
+position: absolute;
+width: 1900px;
+height: 360px;
+opacity: 0.05;
+font-family: "montserrat";
+font-size: 499px;
+font-weight: 900;
+line-height: 450px;
+font-style: normal;
+text-align: center;
+color: #f3f2f1;
+text-transform: uppercase;
+}
+.background_text_responsibility {
+position: absolute;
+width: 1797px;
+height: 241px;
+opacity: 0.05;
+font-family: "montserrat";
+font-size: 233px;
+font-weight: 900;
+line-height: 209px;
+font-style: normal;
+text-align: center;
+color: #f3f2f1;
+text-transform: uppercase;
+}
+.awards .awards_title p{
+    font-family: "montserrat";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    font-style: normal;
+    text-align: center;
+    color: #fcf7e5;
+    margin: 0px 175px 0px 175px;
+}
+.awards_text {
+font-family: "eb garamond";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+
+}
+.awards_list span {
+font-family: "eb garamond";
+font-size: 23px;
+font-weight: 400;
+line-height: 23px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+}
+.award_title {
+font-family: "montserrat";
+font-size: 29px;
+font-weight: 900;
+line-height: 26px;
+font-style: normal;
+text-align: left;
+color: #ffd960;
+
+}
+.award_list {
+width: 33.33%;
+
+}
+.awards_list {
+	display: flex;
+}
+.awards .flex {
+	padding-top: 10%;
+    padding-bottom: 6%;
+}
+.left_text p{
+font-family: "eb garamond";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+width: 460px;
+}
+.shell_small_left {
+margin-left: 24%;
+}
+.left_text_round_images p{
+font-family: "eb garamond";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+}
+.left_text_round_images{
+	width:50%;
+}
+.left_text_image{
+	margin-top: 13%;
+}
+.left_image {
+width: 48%;
+margin-left: -18%;
+margin-top: -26%;	
+}
+.left_image img {
+	width: 730px;
+    height: 700px;
+}
+.left_bottom_text p {
+	width: 437px;
+height: 124.5px;
+font-family: "eb garamond";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+margin-left: 28%;
+}
+.right_text_image .block {
+	width:50%;
+}
+.right_text_main p {
+	font-family: "eb garamond";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+}
+.right_feature p {
+	font-family: "eb garamond";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+font-style: normal;
+text-align: left;
+color: #f3f2f1;
+}
+.right_image img{
+
+    margin-top: -45%;
+    width: 500px;
+    height: 606px;
+}
+.right_image_flex {
+	display: flex;
+}
+.right_bottom_text p{
+	float: right;
+	width: 48%;
+	margin-right: 13%;
+font-family: "eb garamond";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+font-style: normal;
+text-align: right;
+color: #f3f2f1;
+}
+.right_text_image{
+	padding-top: 14%;
+}
+.right_feature .sub-heading {
+font-family: "montserrat";
+font-size: 32px;
+font-weight: 900;
+line-height: 32px;
+font-style: normal;
+text-align: left;
+color: #ffd960;
+}
+.shell-small {
+	max-width: 363px;
+}
+.text_round_images {
+	padding-top: 10%;
+}
+.path1 {
+position: absolute;
+width: 755.1px;
+height: 1138.6px;
+}
+.blue-ball {
+position: absolute;
+width: 56px;
+height: 56px;	
+}
+.footer-image {
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 1%;
+}
+.blue-line {
+width: 213px;
+    height: 2px;
+    border-color: #00539b;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 1%;
+}
+ .center_text {
+padding-top: 7%;
+ }   
+ .blue-green {
+ 	margin-top: -9%;
+ }
+ .right_text_image .shell {
+ 	display: flex;
+ }
+ .footer-list {
+ 	display: flex;
+ }
+@media (max-width: 1128px){
+	.right_text_image .shell {
+ 	display: block;
+ }
+}
+@media (max-width: 1128px){
+	.right_text_image .block {
+    width: 100%;
+}
+}
+@media (max-width: 1128px){
+	.right_text_image .shell {
+ 	display: block;
+ }
+}
+@media (max-width: 768px){
+	.flex {
+		display: block;
+	}
+}
+@media (max-width: 768px){
+	.awards_list{
+		display: block;
+	}
+}
+@media (max-width: 768px){
+	.award_list{
+		width: 100%;
+	}
+}
+@media (max-width: 768px){
+	.feature{
+		width: 100%;
+	}
+}
+@media (max-width: 768px){
+	.footer-list{
+		display: block;
+	}
+}
+@media (max-width: 768px){
+	.left_text_round_images {
+    width: 100%;
+    }
+}
+@media (max-width: 768px){
+	.email p {
+    width: auto;
+    text-align: center;
+   
+}
+}
+@media (max-width: 768px){
+	.phone p {
+    width: auto;
+    text-align: center;
+   
+}
+}
+@media (max-width: 768px){
+	.address p {
+    width: auto;
+    text-align: center;
+   
+}
+}
+@media (max-width: 768px){
+	.background_text_community {
+    font-size: 68px !important;
+
+}
+}
+@media (max-width: 768px){
+	.background_text_value {
+    font-size: 68px;
+
+}
+}
+@media (max-width: 768px){
+	.background_text_responsibility {
+    font-size: 68px;
+
+}
+}
+@media (max-width: 768px){
+	.background_text_access {
+    font-size: 68px;
+
+}
+}
+@media (max-width: 768px){
+	.right_image_flex {
+    display: block;
+}
+}
+@media (max-width: 768px){
+	.left_text {
+    margin-bottom: 45%;
+}
+}
+
+</style>
