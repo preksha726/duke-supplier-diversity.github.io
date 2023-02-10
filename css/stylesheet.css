@@ -131,9 +131,11 @@ height: 40px;
 border-radius: 20px;
 background: #a1b70d;
 color: #a1b70d;
+padding-top: 15px;
 }
 .register_button a {
 	color: #000;
+	margin-left: 41px;
 }
 .background_text_community{
 	position: absolute;
@@ -235,7 +237,7 @@ width: 33.33%;
 .awards_list {
 	display: flex;
 }
-.awards .flex {
+.awards_title{
 	padding-top: 10%;
     padding-bottom: 6%;
 }
